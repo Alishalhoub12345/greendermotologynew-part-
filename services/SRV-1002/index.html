@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+
+    <title>
+      Green Dermatology - Sussex County's Premier Dermatology Clinic
+    </title>
+    <meta
+      name="description"
+      content="Green Dermatology is your trusted dermatology clinic in Delaware, providing expert skin care services in Sussex County and beyond. Specializing in wart removal, cancer mole removal, pediatric dermatology, skin cancer treatment, and more. Whether you're seeking treatment for skin conditions, allergic skin reactions, or cosmetic dermatology, our experienced team in Milford, DE, is here to help. Visit us for the best dermatological care, including skin cancer treatment in Delaware and Sussex County."
+    />
+
+    <meta
+      name="keywords"
+      content="Dermatology in Delaware, wart removal in Delaware, cancer moles removal in Delaware, moles removal in Delaware, best dermatologist in Delaware, pediatric dermatology in Delaware, dermatology clinic in sussex county Delaware, skin treatment in Delaware, skin cancer in Delaware, skin cancer treatment in Delaware, dermatology in milford DE 19963, derm in Delaware, derm in sussex county, Dermatological Procedures in Delaware, Cosmetic Dermatology in Delaware, Allergic Skin Reactions in Delaware, Infectious Skin Diseases in Delaware, Skin care clinic near 19963, Skin specialist Sussex County Delaware, dermatology sussex county Delaware, dermatology milford 19963, Green Dermatology, Mgo Yeghiaian, Acacia Webmaster, Lebanon, Web Hosting"
+    />
+
+    <link rel="canonical" href="https://www.greendermatology.net/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.greendermatology.net/" />
+    <meta
+      property="og:title"
+      content="Green Dermatology - Sussex County's Premier Dermatology Clinic"
+    />
+    <meta
+      property="og:description"
+      content="Green Dermatology is Sussex County, Delaware’s leading dermatology clinic, specializing in acne treatment, skin cancer care, eczema management, wart removal, and more."
+    />
+    <meta property="og:image" content="https://greendermatology.net/Logo.png" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.greendermatology.net/" />
+    <meta
+      name="twitter:title"
+      content="Green Dermatology - Sussex County's Premier Dermatology Clinic"
+    />
+    <meta
+      name="twitter:description"
+      content="Visit Green Dermatology in Milford, Delaware, for expert skin care, including acne treatment, eczema management, skin cancer diagnosis, and cosmetic dermatology."
+    />
+    <meta
+      name="twitter:image"
+      content="https://greendermatology.net/Logo.png"
+    />
+
+    <!-- JSON-LD Structured Data with Location -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Green Dermatology",
+        "url": "https://www.greendermatology.net",
+        "logo": "https://greendermatology.net/Logo.png",
+        "description": "Green Dermatology provides expert skin care solutions in Sussex County, Delaware. Specialties include acne treatment, skin cancer care, eczema management, wart removal, and cosmetic dermatology.",
+        "medicalSpecialty": "Dermatology",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Main Street",
+          "addressLocality": "Milford",
+          "addressRegion": "DE",
+          "postalCode": "19963",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "38.931028",
+          "longitude": "-75.453583"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-302-555-0123",
+          "contactType": "customer service"
+        },
+        "openingHours": "Mo-Fr 09:00-17:00",
+        "sameAs": [
+          "https://www.facebook.com/GreenDermatology",
+          "https://twitter.com/GreenDermDE",
+          "https://www.instagram.com/GreenDermatology"
+        ]
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-kc4RTcT5.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BBpwek9U.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        const redirectToAbout = () => {
+          if (window.location.hash === "#aboutus") {
+            window.location.replace("/aboutus");
+          }
+        };
+        document.addEventListener(
+          "click",
+          (event) => {
+            const link = event.target.closest("a");
+            if (!link) {
+              return;
+            }
+            const href = link.getAttribute("href") || "";
+            if (href === "#aboutus" || href === "/#aboutus") {
+              event.preventDefault();
+              event.stopImmediatePropagation();
+              window.location.href = "/aboutus";
+              return;
+            }
+            if (
+              !href &&
+              link.textContent &&
+              link.textContent.trim().toLowerCase() === "about us"
+            ) {
+              event.preventDefault();
+              event.stopImmediatePropagation();
+              window.location.href = "/aboutus";
+            }
+          },
+          true
+        );
+        window.addEventListener("hashchange", redirectToAbout);
+        redirectToAbout();
+      });
+    </script>
+  </body>
+</html>

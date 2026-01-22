@@ -1,0 +1,20 @@
+RewriteEngine On
+
+# Redirect Trailing Slashes If Not A Folder
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# React SPA Routing - Redirect All Requests To index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [QSA,L]
+
+# Serve Static Files Directly
+<FilesMatch "\.(html|js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|otf|eot|json|pdf|txt)$">
+    Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+# Enable Gzip Compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json
+</IfModule>
