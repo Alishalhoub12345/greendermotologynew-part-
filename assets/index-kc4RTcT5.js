@@ -179,9 +179,6 @@ Looking for a non-invasive treatment for actinic keratoses, acne, or sun-damaged
   <br/> <br/>
   This is a quick, minimally invasive treatment that requires little to no downtime and most patients can see visible improvements within 3-7 days and results that last up to 3-4 months. 
   `},{title:"Dermal Filler",content:`
-  • <strong>Complexion Clearing Masque:</strong> Natural clay-based mask ideal for acne-prone skin.<br>
-  • <strong>Growth Factor Eye Serum:</strong> Targets puffiness and fine lines around the eyes.<br>
-  • <strong>Rozatrol®:</strong> Balances red, sensitized skin by reducing excess oil and inflammation.
   `},{title:"Benefits",content:`
         Non-surgical solution to smooth fine lines, restore lost volume in the face and enhance your natural features. Using FDA-approved hyaluronic acid (HA) based fillers, this treatment can help improve the shape, fullness of different areas of the face including:<br> <br> 
   • <strong>Lips</strong> <br>
