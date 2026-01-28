@@ -2,3 +2,4 @@
 
 .aesthetics-image-offset{}
 @media (min-width: 768px){.aesthetics-image-offset{margin-top:3rem}}
+#serviceData p{line-height:1.9}
