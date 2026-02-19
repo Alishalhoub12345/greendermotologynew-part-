@@ -3,3 +3,13 @@
 .aesthetics-image-offset{}
 @media (min-width: 768px){.aesthetics-image-offset{margin-top:3rem}}
 #serviceData p{line-height:1.9}
+@media (max-width: 1023px){
+  .fixed.inset-0.bg-bg-main > .flex.flex-col.items-center.justify-center.h-full.gap-10.p-5{
+    justify-content:flex-start;
+    padding-top:88px;
+    gap:24px;
+  }
+  .fixed.inset-0.bg-bg-main > .flex.flex-col.items-center.justify-center.h-full.gap-10.p-5 > .flex.justify-center.flex-col.items-center.gap-5.p-2.px-10.text-sm.text-primary.mt-8{
+    margin-top:0;
+  }
+}
